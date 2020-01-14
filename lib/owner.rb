@@ -11,9 +11,9 @@ class Owner
    @species = "human"
  end 
 
- def species
-   @species = "human" 
- end 
+# def species
+#   @species = "human" 
+# end 
  
  def say_species 
    p "I am a #{@species}."
