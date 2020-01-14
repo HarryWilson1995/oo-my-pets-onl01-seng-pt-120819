@@ -11,6 +11,7 @@ class Cat
     binding.pry
     @name = name 
     @owner = owner
+    owner.pets[:cats] << self
     @mood = "nervous"
     @@all << self 
   end 
